@@ -6,7 +6,7 @@ from gcode_emitter import *
 
 if __name__== "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-r", help="cylinder radius")
+    parser.add_argument("-r", help="extruder radius")
     parser.add_argument("-d", help="infill density")
     parser.add_argument("-z", help="slice height")
 
